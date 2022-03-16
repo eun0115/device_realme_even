@@ -143,3 +143,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Power off opt in IPO
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     sys.ipo.pwrdncap=2
+
+# Recovery
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
